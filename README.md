@@ -35,7 +35,7 @@ This is a tiny, single-module linear-regression demo intended for teaching and q
 
 Prerequisites: a local Python environment with `pandas` and `matplotlib` installed.
 
-Install dependencies (PowerShell):
+Install dependencies (CMD):
 
 ```powershell
 python -m pip install --upgrade pip
@@ -62,4 +62,7 @@ y = data['y']
 a, b = rl.a_b(x, y)
 print(f"Regression: y = {a} * x + {b}")
 ```
+## License
+
+This project is provided as-is for learning purposes. Use and modify freely.
 
